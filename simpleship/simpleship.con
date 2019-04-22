@@ -1,0 +1,14 @@
+GeometryTemplate.create BundledMesh simpleship
+CollisionManager.createTemplate simpleship
+
+ObjectTemplate.create PlayerControlObject simpleship
+ObjectTemplate.saveInSeparateFile 1
+ObjectTemplate.creator ZENTARUS111-PC:Zentarus111
+ObjectTemplate.collisionMesh simpleship
+ObjectTemplate.mapMaterial 0 simpleship 0
+ObjectTemplate.hasCollisionPhysics 1
+ObjectTemplate.physicsType 3
+ObjectTemplate.hasMobilePhysics 1
+ObjectTemplate.geometry simpleship
+
+include simpleship.tweak
